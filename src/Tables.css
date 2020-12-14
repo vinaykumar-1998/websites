@@ -23,7 +23,7 @@ table, th, td {
 .tcell{
     text-align: center;
 }
-.add,.edit,.remove,.modify{
+.add,.edit,.remove,.modify,.cancel{
     border: none;
     padding: 10px;
     border-radius: 5px;
@@ -35,6 +35,11 @@ table, th, td {
 .modify{
     background-color: brown;
     border-color: brown;
+    margin-left: 10px;
+}
+.cancel{
+    background-color: red;
+    border-color: red;
     margin-left: 10px;
 }
 .edit{
