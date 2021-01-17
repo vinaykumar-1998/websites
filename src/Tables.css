@@ -1,0 +1,52 @@
+.inpsdiv{
+    text-align: center;
+    margin-bottom: 20px;
+}
+input{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+table, th, td {
+    border: 3px solid rgb(83, 64, 87);
+    border-collapse: collapse;
+}
+.header{
+    font-size: x-large;
+    font-weight: 600;
+}
+.tab {
+    width: 100%;    
+    
+}
+.tcell{
+    text-align: center;
+}
+.add,.edit,.remove,.modify,.cancel{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    color: white;
+}
+.modify{
+    background-color: brown;
+    border-color: brown;
+    margin-left: 10px;
+}
+.cancel{
+    background-color: red;
+    border-color: red;
+    margin-left: 10px;
+}
+.edit{
+    background-color: #204d74;
+    border-color: #122b40;
+}
+.remove{
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
